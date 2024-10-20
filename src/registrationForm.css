@@ -1,0 +1,91 @@
+/* General Styling for Modal */
+.modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .open-modal-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .open-modal-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .modal form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal label {
+    margin-bottom: 10px;
+  }
+  
+  .modal input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .modal button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .modal button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .modal button[type="button"] {
+    background-color: #ccc;
+  }
+  
+  /* Styling for User Grid */
+  .user-grid {
+    margin-top: 20px;
+  }
+  
+  .user-grid table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-grid th, .user-grid td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .user-grid th {
+    background-color: #f2f2f2;
+  }
+  
+  .user-grid td {
+    background-color: #f9f9f9;
+  }
+  

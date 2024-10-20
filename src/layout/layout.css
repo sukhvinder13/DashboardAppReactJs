@@ -1,0 +1,69 @@
+/* Layout Styling */
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #4caf50;
+    color: white;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  /* Sidenav */
+  .sidenav {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidenav li {
+    margin: 10px 0;
+  }
+  
+  .sidenav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .sidenav a:hover {
+    color: #4caf50;
+  }
+  
+  /* Main Content */
+  .content-container {
+    display: flex;
+
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    margin-left: 17%;
+  }
+  /* Style for the logout button */
+.logout-btn {
+  background-color: #f44336; /* Red color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: auto; /* Pushes button to the right */
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}

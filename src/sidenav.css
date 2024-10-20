@@ -1,0 +1,37 @@
+/* sidenav.css */
+
+.sidenav {
+    height: 100%; /* Full-height */
+    width: 14%; /* Set the width of the sidenav */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0; /* Align to the left */
+    background-color: #333; /* Dark background color */
+    padding-top: 0px; /* Padding on top */
+  }
+  
+  .sidenav h2 {
+    color: white; /* Text color for the header */
+    text-align: center;
+  }
+  
+  .sidenav ul {
+    list-style-type: none; /* Remove bullets from list */
+    padding: 0; /* Remove padding */
+  }
+  
+  .sidenav li {
+    padding: 8px 16px; /* Padding for each list item */
+  }
+  
+  .sidenav a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Make the link block-level */
+  }
+  
+  .sidenav a:hover {
+    background-color: #575757; /* Change background on hover */
+  }
+  

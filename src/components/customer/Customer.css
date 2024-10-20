@@ -1,0 +1,35 @@
+/* Container for the customer table */
+.customer-container {
+    width: 84%;
+    /* margin-left:15%; */
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  /* Styling for the table */
+  .customer-table {
+    width: 84%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .customer-table thead {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .customer-table th, .customer-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .customer-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .customer-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
