@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DashboardAppReactJs/static/css/main.54d4d316.css",
-    "main.js": "/DashboardAppReactJs/static/js/main.b3726e8f.js",
-    "static/js/453.d8e518f4.chunk.js": "/DashboardAppReactJs/static/js/453.d8e518f4.chunk.js",
-    "index.html": "/DashboardAppReactJs/index.html",
-    "main.54d4d316.css.map": "/DashboardAppReactJs/static/css/main.54d4d316.css.map",
-    "main.b3726e8f.js.map": "/DashboardAppReactJs/static/js/main.b3726e8f.js.map",
-    "453.d8e518f4.chunk.js.map": "/DashboardAppReactJs/static/js/453.d8e518f4.chunk.js.map"
+    "main.css": "/static/css/main.54d4d316.css",
+    "main.js": "/static/js/main.6e0aec57.js",
+    "static/js/453.d8e518f4.chunk.js": "/static/js/453.d8e518f4.chunk.js",
+    "index.html": "/index.html",
+    "main.54d4d316.css.map": "/static/css/main.54d4d316.css.map",
+    "main.6e0aec57.js.map": "/static/js/main.6e0aec57.js.map",
+    "453.d8e518f4.chunk.js.map": "/static/js/453.d8e518f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54d4d316.css",
-    "static/js/main.b3726e8f.js"
+    "static/js/main.6e0aec57.js"
   ]
 }
